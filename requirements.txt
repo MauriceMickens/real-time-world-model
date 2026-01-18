@@ -1,0 +1,13 @@
+# PyTorch with CUDA support
+# Install from: https://pytorch.org/get-started/locally/
+# Use appropriate command for your CUDA version, e.g.:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# NVTX is included with PyTorch, but if needed separately:
+# nvidia-pyindex (for NVTX Python bindings if not using torch's built-in)
+# torch-nvtx  # Optional: if using standalone nvtx package
+
+# Note: PyTorch installation depends on your CUDA version
+# For CUDA 12.1: pip install torch --index-url https://download.pytorch.org/whl/cu121
+# For CUDA 11.8: pip install torch --index-url https://download.pytorch.org/whl/cu118
+# Check your CUDA version with: nvidia-smi
